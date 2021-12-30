@@ -1,0 +1,409 @@
+<div id="title">
+        <p><img src="./sun-icon.png" alt="">WeatherApp</p>
+   </div>
+   <div id="logout">
+       <form action="/logout?_method=DELETE" method="POST">
+          <button class="logoutbtn" >Log Out</button>
+        </form>
+   </div>
+   <div class="logout-btn">   
+    </div>
+    <div class="container">
+        <div class="row pt-4">
+          <div class="col">
+            <div class="wrapper">
+                <div class="widget-container">
+                  <div class="top-left">
+                    <h1 class="city" id="city">Toronto</h1>
+                    <h6 class="country" id="toronto-country">Country</h6>
+                  </div>
+                  <div class="top-right">
+                    <h1 class="weather" id="toronto-weather">Weather</h1>
+                    <img class="toronto-weather-icon" src="https://myleschuahiock.files.wordpress.com/2016/02/sunny2.png">
+                  </div>
+                  <div class="horizontal-half-divider"></div>
+                  <div class="bottom-left">
+                    <h1 class="temperature" id="toronto-temp">0</h1>
+                    <h2 id="celsius">&degC</h2>
+                  </div>
+                  <div class="vertical-half-divider"></div>
+                  <div class="bottom-right">
+                    <div class="other-details-key">
+                      <p>Humidity</p>
+                      <p>Pressure</p>
+                      <p>Clouds</p>
+                    </div>
+                    <div class="other-details-values">
+                      <p id="toronto-humidity" class="humidity"></p>
+                      <p id="toronto-pressure" class="pressure"></p>
+                      <p id="toronto-clouds" class="clouds"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="wrapper">
+                <div class="widget-container">
+                  <div class="top-left">
+                    <h1 class="city" id="city">Manhattan</h1>
+                    <h6 class="country" id="manhattan-country">Country</h6>
+                  </div>
+                  <div class="top-right">
+                    <h1 class="weather" id="manhattan-weather">Weather</h1>
+                    <img class="manhattan-weather-icon" src="https://myleschuahiock.files.wordpress.com/2016/02/sunny2.png">
+                  </div>
+                  <div class="horizontal-half-divider"></div>
+                  <div class="bottom-left">
+                    <h1 class="temperature" id="manhattan-temp">0</h1>
+                    <h2 id="celsius">&degC</h2>
+                  </div>
+                  <div class="vertical-half-divider"></div>
+                  <div class="bottom-right">
+                    <div class="other-details-key">
+                      <p>Humidity</p>
+                      <p>Pressure</p>
+                      <p>Clouds</p>
+                    </div>
+                    <div class="other-details-values">
+                      <p id="manhattan-humidity" class="humidity"></p>
+                      <p id="manhattan-pressure" class="pressure"></p>
+                      <p id="manhattan-clouds" class="clouds"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="wrapper">
+                <div class="widget-container">
+                  <div class="top-left">
+                    <h1 class="city" id="city">Rio de Janeiro</h1>
+                    <h6 class="country" id="rio-country">Country</h6>
+                  </div>
+                  <div class="top-right">
+                    <h1 class="weather" id="rio-weather">Weather</h1>
+                    <img class="rio-weather-icon" src="https://myleschuahiock.files.wordpress.com/2016/02/sunny2.png">
+                  </div>
+                  <div class="horizontal-half-divider"></div>
+                  <div class="bottom-left">
+                    <h1 class="temperature" id="rio-temp">0</h1>
+                    <h2 id="celsius">&degC</h2>
+                  </div>
+                  <div class="vertical-half-divider"></div>
+                  <div class="bottom-right">
+                    <div class="other-details-key">
+                      <p>Humidity</p>
+                      <p>Pressure</p>
+                      <p>Clouds</p>
+                    </div>
+                    <div class="other-details-values">
+                      <p id="rio-humidity" class="humidity"></p>
+                      <p id="rio-pressure" class="pressure"></p>
+                      <p id="rio-clouds" class="clouds"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="row pt-4">
+            <div class="col">
+                <div class="wrapper">
+                    <div class="widget-container">
+                      <div class="top-left">
+                        <h1 class="city" id="city">Montevideo</h1>
+                        <h6 class="country" id="montevideo-country">Country</h6>
+                      </div>
+                      <div class="top-right">
+                        <h1 class="weather" id="montevideo-weather">Weather</h1>
+                        <img class="montevideo-weather-icon" src="https://myleschuahiock.files.wordpress.com/2016/02/sunny2.png">
+                      </div>
+                      <div class="horizontal-half-divider"></div>
+                      <div class="bottom-left">
+                        <h1 class="temperature" id="montevideo-temp">0</h1>
+                        <h2 id="celsius">&degC</h2>
+                      </div>
+                      <div class="vertical-half-divider"></div>
+                      <div class="bottom-right">
+                        <div class="other-details-key">
+                          <p>Humidity</p>
+                          <p>Pressure</p>
+                          <p>Clouds</p>
+                        </div>
+                        <div class="other-details-values">
+                          <p id="montevideo-humidity" class="humidity"></p>
+                          <p id="montevideo-pressure" class="pressure"></p>
+                          <p id="montevideo-clouds" class="clouds"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="wrapper">
+                    <div class="widget-container">
+                      <div class="top-left">
+                        <h1 class="city" id="city">Paris</h1>
+                        <h6 class="country" id="paris-country">Country</h6>
+                      </div>
+                      <div class="top-right">
+                        <h1 class="weather" id="paris-weather">Weather</h1>
+                        <img class="paris-weather-icon" src="https://myleschuahiock.files.wordpress.com/2016/02/sunny2.png">
+                      </div>
+                      <div class="horizontal-half-divider"></div>
+                      <div class="bottom-left">
+                        <h1 class="temperature" id="paris-temp">0</h1>
+                        <h2 id="celsius">&degC</h2>
+                      </div>
+                      <div class="vertical-half-divider"></div>
+                      <div class="bottom-right">
+                        <div class="other-details-key">
+                          <p>Humidity</p>
+                          <p>Pressure</p>
+                          <p>Clouds</p>
+                        </div>
+                        <div class="other-details-values">
+                          <p id="paris-humidity" class="humidity"></p>
+                          <p id="paris-pressure" class="pressure"></p>
+                          <p id="paris-clouds" class="clouds"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="wrapper">
+                    <div class="widget-container">
+                      <div class="top-left">
+                        <h1 class="city" id="city">Berlin</h1>
+                        <h6 class="country" id="berlin-country">Country</h6>
+                      </div>
+                      <div class="top-right">
+                        <h1 class="weather" id="berlin-weather">Weather</h1>
+                        <img class="berlin-weather-icon" src="https://myleschuahiock.files.wordpress.com/2016/02/sunny2.png">
+                      </div>
+                      <div class="horizontal-half-divider"></div>
+                      <div class="bottom-left">
+                        <h1 class="temperature" id="berlin-temp">0</h1>
+                        <h2 id="celsius">&degC</h2>
+                      </div>
+                      <div class="vertical-half-divider"></div>
+                      <div class="bottom-right">
+                        <div class="other-details-key">
+                          <p>Humidity</p>
+                          <p>Pressure</p>
+                          <p>Clouds</p>
+                        </div>
+                        <div class="other-details-values">
+                          <p id="berlin-humidity" class="humidity"></p>
+                          <p id="berlin-pressure" class="pressure"></p>
+                          <p id="berlin-clouds" class="clouds"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+          <div class="row pt-4">
+            <div class="col">
+                <div class="wrapper">
+                    <div class="widget-container">
+                      <div class="top-left">
+                        <h1 class="city" id="city">Rome</h1>
+                        <h6 class="country" id="rome-country">Country</h6>
+                      </div>
+                      <div class="top-right">
+                        <h1 class="weather" id="rome-weather">Weather</h1>
+                        <img class="rome-weather-icon" src="https://myleschuahiock.files.wordpress.com/2016/02/sunny2.png">
+                      </div>
+                      <div class="horizontal-half-divider"></div>
+                      <div class="bottom-left">
+                        <h1 class="temperature" id="rome-temp">0</h1>
+                        <h2 id="celsius">&degC</h2>
+                      </div>
+                      <div class="vertical-half-divider"></div>
+                      <div class="bottom-right">
+                        <div class="other-details-key">
+                          <p>Humidity</p>
+                          <p>Pressure</p>
+                          <p>Clouds</p>
+                        </div>
+                        <div class="other-details-values">
+                          <p id="rome-humidity" class="humidity"></p>
+                          <p id="rome-pressure" class="pressure"></p>
+                          <p id="rome-clouds" class="clouds"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="wrapper">
+                    <div class="widget-container">
+                      <div class="top-left">
+                        <h1 class="city" id="city">Cairo</h1>
+                        <h6 class="country" id="cairo-country">Country</h6>
+                      </div>
+                      <div class="top-right">
+                        <h1 class="weather" id="cairo-weather">Weather</h1>
+                        <img class="cairo-weather-icon" src="https://myleschuahiock.files.wordpress.com/2016/02/sunny2.png">
+                      </div>
+                      <div class="horizontal-half-divider"></div>
+                      <div class="bottom-left">
+                        <h1 class="temperature" id="cairo-temp">0</h1>
+                        <h2 id="celsius">&degC</h2>
+                      </div>
+                      <div class="vertical-half-divider"></div>
+                      <div class="bottom-right">
+                        <div class="other-details-key">
+                          <p>Humidity</p>
+                          <p>Pressure</p>
+                          <p>Clouds</p>
+                        </div>
+                        <div class="other-details-values">
+                          <p id="cairo-humidity" class="humidity"></p>
+                          <p id="cairo-pressure" class="pressure"></p>
+                          <p id="cairo-clouds" class="clouds"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="wrapper">
+                    <div class="widget-container">
+                      <div class="top-left">
+                        <h1 class="city" id="city">Seoul</h1>
+                        <h6 class="country" id="seoul-country">Country</h6>
+                      </div>
+                      <div class="top-right">
+                        <h1 class="weather" id="seoul-weather">Weather</h1>
+                        <img class="seoul-weather-icon" src="https://myleschuahiock.files.wordpress.com/2016/02/sunny2.png">
+                      </div>
+                      <div class="horizontal-half-divider"></div>
+                      <div class="bottom-left">
+                        <h1 class="temperature" id="seoul-temp">0</h1>
+                        <h2 id="celsius">&degC</h2>
+                      </div>
+                      <div class="vertical-half-divider"></div>
+                      <div class="bottom-right">
+                        <div class="other-details-key">
+                          <p>Humidity</p>
+                          <p>Pressure</p>
+                          <p>Clouds</p>
+                        </div>
+                        <div class="other-details-values">
+                          <p id="seoul-humidity" class="humidity"></p>
+                          <p id="seoul-pressure" class="pressure"></p>
+                          <p id="seoul-clouds" class="clouds"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="row pt-4">
+            <div class="col">
+                <div class="wrapper">
+                    <div class="widget-container">
+                      <div class="top-left">
+                        <h1 class="city" id="city">Shanghai</h1>
+                        <h6 class="country" id="shanghai-country">Country</h6>
+                      </div>
+                      <div class="top-right">
+                        <h1 class="weather" id="shanghai-weather">Weather</h1>
+                        <img class="shanghai-weather-icon" src="https://myleschuahiock.files.wordpress.com/2016/02/sunny2.png">
+                      </div>
+                      <div class="horizontal-half-divider"></div>
+                      <div class="bottom-left">
+                        <h1 class="temperature" id="shanghai-temp">0</h1>
+                        <h2 id="celsius">&degC</h2>
+                      </div>
+                      <div class="vertical-half-divider"></div>
+                      <div class="bottom-right">
+                        <div class="other-details-key">
+                          <p>Humidity</p>
+                          <p>Pressure</p>
+                          <p>Clouds</p>
+                        </div>
+                        <div class="other-details-values">
+                          <p id="shanghai-humidity" class="humidity"></p>
+                          <p id="shanghai-pressure" class="pressure"></p>
+                          <p id="shanghai-clouds" class="clouds"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="wrapper">
+                    <div class="widget-container">
+                      <div class="top-left">
+                        <h1 class="city" id="city">Tokyo</h1>
+                        <h6 class="country" id="tokyo-country">Country</h6>
+                      </div>
+                      <div class="top-right">
+                        <h1 class="weather" id="tokyo-weather">Weather</h1>
+                        <img class="tokyo-weather-icon" src="https://myleschuahiock.files.wordpress.com/2016/02/sunny2.png">
+                      </div>
+                      <div class="horizontal-half-divider"></div>
+                      <div class="bottom-left">
+                        <h1 class="temperature" id="tokyo-temp">0</h1>
+                        <h2 id="celsius">&degC</h2>
+                      </div>
+                      <div class="vertical-half-divider"></div>
+                      <div class="bottom-right">
+                        <div class="other-details-key">
+                          <p>Humidity</p>
+                          <p>Pressure</p>
+                          <p>Clouds</p>
+                        </div>
+                        <div class="other-details-values">
+                          <p id="tokyo-humidity" class="humidity"></p>
+                          <p id="tokyo-pressure" class="pressure"></p>
+                          <p id="tokyo-clouds" class="clouds"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="wrapper">
+                    <div class="widget-container">
+                      <div class="top-left">
+                        <h1 class="city" id="city">Karachi</h1>
+                        <h6 class="country" id="karachi-country">Country</h6>
+                      </div>
+                      <div class="top-right">
+                        <h1 class="weather" id="karachi-weather">Weather</h1>
+                        <img class="karachi-weather-icon" src="https://myleschuahiock.files.wordpress.com/2016/02/sunny2.png">
+                      </div>
+                      <div class="horizontal-half-divider"></div>
+                      <div class="bottom-left">
+                        <h1 class="temperature" id="karachi-temp">0</h1>
+                        <h2 id="celsius">&degC</h2>
+                      </div>
+                      <div class="vertical-half-divider"></div>
+                      <div class="bottom-right">
+                        <div class="other-details-key">
+                          <p>Humidity</p>
+                          <p>Pressure</p>
+                          <p>Clouds</p>
+                        </div>
+                        <div class="other-details-values">
+                          <p id="karachi-humidity" class="humidity"></p>
+                          <p id="karachi-pressure" class="pressure"></p>
+                          <p id="karachi-clouds" class="clouds"></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+    </div>
+
+    <footer>
+        <span>Created By : Wafa Qazi 500796254</span> 
+     </footer>
+

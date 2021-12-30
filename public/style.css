@@ -1,0 +1,261 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300);
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  color: #fff;
+  background-image: url("cloudy-blue-background.jpeg");
+}
+
+#title p {
+    color: black;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 50px 0 0 90px;
+    display: inline-block;
+}
+
+#title { 
+  display: inline-block;
+}
+
+#logout {
+  display: inline-block;
+  float:right;
+}
+
+.logoutbtn {
+  margin-right: 45px;
+  width: 90px;
+  height: 40px;
+}
+
+.widget-container {
+  width: 350px;
+  height: 230px;
+  display: block;
+  background-color: #313e45;
+  border-radius: 25px;
+/*   border: 5px solid #eceff1; */
+  margin: 0 auto;
+  opacity: 0.9;
+}
+
+
+/* Widget 4 Quarter Division here */
+
+.top-left {
+  height: 60%;
+  width: 50%;
+    /* background-color:red; */
+  padding: 40px 0 0 30px;
+  display: inline-block;
+}
+
+.top-right {
+  height: 60%;
+  width: 50%;
+    /* background-color: blue; */
+  float: right;
+  padding: 19px 0 0 0;
+}
+
+.bottom-left {
+  height: 40%;
+  width: 45%;
+    /* background-color:orange; */
+  float: left;
+  margin: 0;
+  padding: 20px 0 0 40px;
+}
+
+.bottom-right {
+  height: 40%;
+  width: 55%;
+    /* background-color: brown; */
+  float: right;
+  padding: 15px 0 0 30px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+#title > p > img {
+
+    width: 100px;
+    height: 100px;
+
+}
+
+
+/* Top-left Div CSS */
+
+#city {
+  font-weight: 900;
+  font-size: 29px;
+}
+
+.country {
+    font-weight: 400;
+
+}
+
+
+/* Top-Right Div CSS */
+
+.weather {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.top-right > img {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: 15px auto 0 auto;
+}
+
+
+/* Horizontal-Half-divider */
+
+.horizontal-half-divider {
+  width: 100%;
+  height: 3px;
+  margin-top: -5px;
+  background-color: #263238;
+}
+
+.vertical-half-divider {
+  width: 3px;
+  position: absolute;
+  height: 90px;
+  background-color: #263238;
+  float: right;
+  display: inline-block;
+  padding: 0;
+}
+
+
+/* Bottom-left CSS */
+
+.temperature,
+#celsius {
+  display: inline;
+  vertical-align: middle;
+}
+
+.temperature {
+  font-size: 40px;
+  font-weight: 800;
+  margin-right: 5px;
+}
+
+#celsius {
+  margin-right: 10px;
+}
+
+
+#celsius {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+#celsius:hover {
+  cursor: pointer;
+}
+
+/* Bottom-Right CSS */
+
+.other-details-key {
+  float: left;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.other-details-values {
+  float: left;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer span {
+    padding-bottom: 20px;
+}
+
+.login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 30px;
+    border-radius: 6px;
+    box-sizing: border-box;
+
+}
+
+.login-container h2 {
+    padding: 10px 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 50px;
+}
+
+.form-container {
+    padding: 16px;
+}
+
+input[type=email], input[type=password], button[type=submit] {
+    width: 100%;
+    padding: 8px 12px;
+    margin: 8px 0px;
+    display: inline-block;
+    color: white;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 1px solid  black;
+}
+
+button[type=submit] {
+    margin-top: 20px;
+}
+
+input[type=email]:focus, input[type=password]:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+  }
+
+button[type="submit"] {
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    
+}
+
